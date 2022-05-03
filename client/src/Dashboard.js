@@ -324,7 +324,7 @@ export default class Dashboard extends Component {
             <Button
               disabled={this.state.name == '' || this.state.desc == '' || this.state.discount == '' || this.state.price == ''}
               onClick={(e) => this.updateProduct()} color="primary" autoFocus>
-              Edit Product
+              Edit Event
             </Button>
           </DialogActions>
         </Dialog>
@@ -336,7 +336,7 @@ export default class Dashboard extends Component {
           aria-labelledby="alert-dialog-title"
           aria-describedby="alert-dialog-description"
         >
-          <DialogTitle id="alert-dialog-title">Add Product</DialogTitle>
+          <DialogTitle id="alert-dialog-title">Add Event</DialogTitle>
           <DialogContent>
             <TextField
               id="standard-basic"
@@ -408,7 +408,7 @@ export default class Dashboard extends Component {
             <Button
               disabled={this.state.name == '' || this.state.desc == '' || this.state.discount == '' || this.state.price == '' || this.state.file == null}
               onClick={(e) => this.addProduct()} color="primary" autoFocus>
-              Add Product
+              Add Event
             </Button>
           </DialogActions>
         </Dialog>
